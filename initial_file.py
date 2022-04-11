@@ -22,6 +22,7 @@
 # Chek subclass categories
 
 # Task includes
+# TASK ID
 # TASK NAME
 # TASK CATEGORY - Home/School/Work/Personal
 # TASK SUBCLASS - Based on class
@@ -31,3 +32,5 @@
 # IMPORTANCE 1-5 (1 is most important)
 
 # Import task list based on importance and time estimated
+
+# Save the file
