@@ -2,7 +2,7 @@ import itertools
 
 class Task:
 
-    def __init__(self, task_name:str, task_category:int, task_time:int, task_importance:int):
+    def __init__(self, task_name:str, task_category:int=1, task_time:int=0, task_importance:int=1):
         
         self.task_id = id_creator()
 

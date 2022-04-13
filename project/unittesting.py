@@ -3,11 +3,24 @@ from create_task import *
 
 class TestTask(unittest.TestCase):
 
-    def task_name_test(self):
-        self.assertEqual(Task("Taskname123"), "Taskname123")
+    def test_task_name(self):
+        print("Test starting")
+
+        tasknames = []
+
+        for i in range(3):
+            taskname = "Taskname" + str(i)
+            tasknames.append(taskname)
+
+        t1 = Task(tasknames[1])
+
+        print(t1)
 
 
-        #task_name:str, task_category:int, task_time:int, task_importance:int
+
+
+    #Task(task_t, task_cate, task_time, task_imp)
+        
 
 if __name__ == '__main__':
     unittest.main()
